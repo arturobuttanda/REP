@@ -1,0 +1,30 @@
+# ------------------------------------
+# Entorno Virtual
+# ------------------------------------
+# Ignora la carpeta del entorno virtual. Usa el nombre que le diste.
+.venv/
+venv/
+
+# ------------------------------------
+# Archivos Temporales y Caché de Python
+# ------------------------------------
+# Archivos de bytecode compilados
+__pycache__/
+*.pyc
+
+# Archivos de documentación y testing
+.pytest_cache/
+htmlcov/
+
+# ------------------------------------
+# Archivos del Sistema Operativo
+# ------------------------------------
+.DS_Store # macOS
+Thumbs.db # Windows
+
+# ------------------------------------
+# Archivos de Configuración Sensibles
+# ------------------------------------
+# Archivos para variables de entorno (¡MUY IMPORTANTE!)
+.env
+*.local
